@@ -2,7 +2,7 @@
 
 .nav {
     position: fixed;
-    width: 510px;
+    width: 542px;
     z-index: 20;
     right: 80px;
     background: #fff;
@@ -45,6 +45,11 @@
         transform: scaleX(0);
         transform-origin: 0% 50%;
         transition: transform ease-in-out 0.15s;
+    }
+    &:hover {
+        &::after {
+            transform: scaleX(1);
+        }
     }
 }
 .nav-contact {
