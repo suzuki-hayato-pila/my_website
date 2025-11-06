@@ -1,5 +1,15 @@
  @use "../const" as cn;
 
+ @keyframes infiniteCarousel 
+ {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+ }
+
  .hero{
     width: 100vw;
     height: 100vh;
@@ -63,7 +73,7 @@
     }
     .hero-images-list {
        white-space: nowrap;
-        // TODO: Animation
+       animation: infiniteCarousel 60s linear infinite;
     }
     .hero-images-item {
         height: 100%;
