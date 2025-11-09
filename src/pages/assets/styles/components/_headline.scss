@@ -33,9 +33,12 @@
     }
   }
     // modifier
-  &.headline-secondary {
-    text-align: center;
+  &.headline-color-main {
+    // text-align: center;
     color: cn.$color-main;
+  }
+  &.headline-center {
+    text-align: center;
   }
 }
 
