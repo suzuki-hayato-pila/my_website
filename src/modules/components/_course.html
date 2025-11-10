@@ -7,7 +7,11 @@
 
         <ul class="course-list">
          <li class="course-item">
-             <%- include("../modules/components/_panel.html") %>
+             <%- include("../modules/components/_panel.html", { headline: "BASIC", disc: "初心者向けの基本コースの説明文が入ります。" }) %>
+             
+         </li>
+         <li class="course-item">
+             <%- include("../modules/components/_panel.html", { headline: "CAREER", disc: "上級者向けの応用コースの説明文が入ります。" }) %>
          </li>
         </ul>
 </section>
