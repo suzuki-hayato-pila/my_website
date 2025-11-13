@@ -1,1 +1,26 @@
 @use "../const" as cn;  
+
+.work {
+    background: #fff;   
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.work-img {
+    border-radius: 8px;
+    overflow: hidden;
+    > img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.work-data {
+    margin-top: 15px;
+    > dt {
+        font-size: 24px;
+        color: cn.$color-main;
+        margin-bottom: 15px;    
+        font-weight: bold;
+    }
+}

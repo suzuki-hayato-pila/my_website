@@ -1,7 +1,7 @@
 <section class="showcase">
-    <div class="showcase-container">
-        <div class="showcase-header">
-            <h1 class="showcase-header-headline">卒業生のアウトプット・成果</h1>
+    <div class="showcase-header">
+        <div class="showcase-header-inner">
+            <h1 class="showcase-header-headline">・ 卒業生のアウトプット・成果</h1>
             <%- include("../modules/components/_link.html", {
                 modifier: "",
                 href: "",
@@ -12,9 +12,12 @@
 
     <div class="showcase-contents">
         <ul class="showcase-list">
+            <li class="showcase-item"></li>
+            <% for(let index = 0; index < 5; index++) { %>
             <li class="showcase-item">
                 <%- include("../modules/components/_work.html") %>
             </li>
+            <% } %>
         </ul>
     </div>
 
