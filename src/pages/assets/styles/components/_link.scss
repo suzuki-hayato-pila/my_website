@@ -50,4 +50,20 @@
     &.link-full {
         width: 100%;
     }
+        //modifier
+    &.link-nav {
+        padding: 16px 32px;
+        border-radius: 74px;
+        font-size: 14px;
+    }
+    &.link-full {
+        width: 100%;
+    }
+    &.link-contact {
+        background: cn.$color-accent;
+        padding: 28px 158px;
+        &::after {
+            background: cn.$color-accent-dark;
+        }
+    }
 }
