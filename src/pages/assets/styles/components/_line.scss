@@ -1,0 +1,14 @@
+@use "../const" as cn;
+
+.line {
+    display: flex;
+    align-items: center;
+}
+//.line-img {}
+.line-text {
+    padding-left: 20px;
+    > dt {
+        margin-bottom: 10px;
+    }
+    > dd {}
+}

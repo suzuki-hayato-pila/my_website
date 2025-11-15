@@ -1,0 +1,70 @@
+@use "../const" as cn;
+
+.footer {
+    background-color: cn.$color-core;
+    color: #fff;
+    padding: 260px 120px 120px;
+}
+.footer-top{
+    display: flex
+}
+.footer-top-logo {
+    margin-bottom: 40px;
+}
+.footer-top-info {
+    margin-right: 105px;
+    width: 255px;
+    > address {
+        font-style: normal;
+        color: cn.$color-address;
+    }
+}
+.footer-top-nav {
+    margin-right: 110px;
+    width: 100px;
+    > a {
+        color: #fff;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.footer-top-others{
+    width: 410px;
+    margin-top: -8px;
+}
+.footer-top-sns{
+    margin-bottom: 35px;
+    > a {
+        color: #fff;
+        font-size: 28px;
+        margin-right: 14px;
+        &:hover {
+            opacity: .8;
+        }
+    }
+}
+// .footer-top-line{}
+
+.footer-border {
+    border-top: 1px solid cn.$color-light-gray;
+    margin: 40px 0;
+}
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-bottom-credit { 
+    color: cn.$color-address;
+}
+.footer-bottom-nav {
+    display: flex;
+    > a {
+        color: #fff;
+        margin-left: 32px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
