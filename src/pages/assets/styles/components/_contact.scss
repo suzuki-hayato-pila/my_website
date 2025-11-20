@@ -20,4 +20,16 @@
     }
 }
 
-
+@media screen and (max-width: cn.$bp-sm) {
+    .contact {
+        margin: 0 20px;
+    }
+    .contact-inner {
+        padding-right: 20px;
+        > h1{
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        padding-left: 20px;
+    }
+}
