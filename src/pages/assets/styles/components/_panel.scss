@@ -70,6 +70,13 @@
 
 
 }    
-// .panel-disc {
 
-// }   
+@media screen and (max-width: cn.$bp-sm) {
+    .panel {
+        padding: 20px;
+    }
+    .panel-headline{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+}
