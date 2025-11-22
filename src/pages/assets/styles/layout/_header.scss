@@ -25,10 +25,13 @@
 
 @media screen and (max-width: cn.$bp-sm) {
     .header {
-        top: 24px;
+        top: 20px;
+    }
+    .header-flex{
+        padding: 0;
     }
     .header-inner {
-        margin: 0 40px;
+        margin: 0 20px;
     }
     .header-logo {
         width: 70px;

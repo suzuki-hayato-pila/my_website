@@ -10,6 +10,10 @@
     margin-bottom: 75px;
 }
 
+.showcase-header-link{
+    line-height: 0;
+}
+
 .showcase-header-inner {
     display: flex;
     justify-content: space-between;
@@ -52,4 +56,40 @@
     &:last-child {
         margin-right: 0;
     }
+}
+
+@media screen and (max-width: cn.$bp-sm){
+  .showcase {
+    padding: 0 0 60;
+    position: relative;
+    margin: 40px 0;
+  }
+    .showcase-header-link {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+  .showcase-header{
+    padding: 0 20px;
+    display: block;
+    text-align: center;
+  }
+  .showcase-header-inner{
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
+  .showcase-header-headline{
+    font-size: 24px;
+  }
+  .showcase-list{
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .showcase-item{
+    width: 100%;
+    &:first-child{
+        display: none;
+    }
+  }
 }
